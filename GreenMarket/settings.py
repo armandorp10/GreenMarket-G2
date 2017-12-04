@@ -27,7 +27,7 @@ SECRET_KEY = '5c&q3a!b8msxfm#yo#rx3mba@!+pw$!(uup#+lkju5r07-5e1@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'green-market-master.herokuapp.com', 'green-market-develop.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'green-market-master.herokuapp.com', 'green-market-develop.herokuapp.com', 'greenmarketrelease.herokuapp.com']
 
 
 # Application definition
