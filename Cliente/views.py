@@ -601,7 +601,7 @@ class MejoresProductores(View):
                 request, messages.SUCCESS,
                 'No se encontraron productores'
             )
-        return render(request, 'cliente/mejoresProductores.html', {'datos': productores_ordenado})
+        return render(request, 'Cliente/mejoresProductores.html', {'datos': productores_ordenado})
 
 @method_decorator(csrf_exempt, name='dispatch')
 class getIdCooperativaByLocation(View):
